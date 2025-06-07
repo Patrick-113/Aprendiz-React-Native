@@ -1,0 +1,9 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": ["./src/*"] //Sempre que você colocar @/ estara indicando a pasta src, sendo que o * é para indicar tudo dentro da pasta
+    }
+  }
+}
